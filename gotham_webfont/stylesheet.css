@@ -1048,3 +1048,22 @@ td, th {
     font-family: 'Gotham';
     color: black;
   }
+  .video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+  .video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.tour-text {
+  color: #18347D;
+  font-size:60px;
+  font-family:"Gotham";
+}
