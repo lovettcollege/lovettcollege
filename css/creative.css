@@ -5589,6 +5589,41 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: #040505;
 }
 
+.blm-banner {
+  -webkit-text-size-adjust: 100%;
+  --dark-goldenrod: #ffcd32;
+  --pale-goldenrod: #fff5d4;
+  --mid-goldenrod: #ffe38b;
+  --off-white: #fff;
+  --serif-font: Merriweather, serif;
+  --sans-serif-font: Karla, sans-serif;
+  --dark-text-color: #333;
+  -webkit-box-direction: normal;
+  font: inherit;
+  margin: 0;
+  overflow: visible;
+  text-transform: none;
+  border: 0;
+  cursor: pointer;
+  -webkit-appearance: button;
+  height: 40px;
+  width: 100%;
+  font-family: var(--sans-serif-font);
+  letter-spacing: 2px;
+  background-color: var(--dark-text-color);
+  color: var(--off-white);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  bottom: auto;
+  z-index: 3;
+  display: block;
+  top: 7.25vh;
+  position: absolute;
+  font-size: 22px;
+  margin-top: 0px;
+}
+
 @-webkit-keyframes progress-bar-stripes {
   from {
     background-position: 1rem 0;
