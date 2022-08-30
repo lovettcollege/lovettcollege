@@ -78,18 +78,18 @@
       </li>
 
       <!-- Needed to add active here -->
-      <li class="nav-item active">
+      <li class="nav-item">
         <!-- Needed to remove collapsed and set aria-expanded to true -->
-        <a class="nav-link sidebar-color" href="#" data-toggle="collapse" data-target="#collapseGovt" aria-expanded="true" aria-controls="collapseGovt">
+        <a class="nav-link sidebar-color" href="#" data-toggle="collapse" data-target="#collapseGovt" aria-expanded="false" aria-controls="collapseGovt">
           <hr class="sidebar-break">
           <!-- Added cust-yellow here -->
-          <span class="sidebar-txt cust-yellow">Government</span>
+          <span class="sidebar-txt">Government</span>
         </a>
         <!-- Needed to add show here -->
-        <div id="collapseGovt" class="collapse show sidebar-collapse-menu" aria-labelledby="Government" data-parent="#accordionSidebar">
+        <div id="collapseGovt" class="collapse sidebar-collapse-menu" aria-labelledby="Government" data-parent="#accordionSidebar">
           <div class="sidebar-dropdown py-1 collapse-inner rounded">
             <!-- Needed to add active here -->
-            <a class="collapse-item dropdown-text py-1 active" href="overview.html">Overview</a>
+            <a class="collapse-item dropdown-text py-1" href="overview.html">Overview</a>
             <a class="collapse-item dropdown-text py-1" href="cc.html">Central Committee</a>
             <a class="collapse-item dropdown-text py-1" href="appointed-positions.html">Appointed Positions</a>
             <a class="collapse-item dropdown-text py-1" href="court.html">College Court</a>
@@ -157,16 +157,17 @@
           <span class="sidebar-txt">O-Week</span>
         </a>
       </li> -->
-      <li class="nav-item">
-        <a class="nav-link collapsed sidebar-color" href="#" data-toggle="collapse" data-target="#collapseOWeek" aria-expanded="false" aria-controls="collapseOWeek">
+      <li class="nav-item active">
+        <a class="nav-link sidebar-color" href="#" data-toggle="collapse" data-target="#collapseOWeek" aria-expanded="true" aria-controls="collapseOWeek">
           <hr class="sidebar-break">
-          <span class="sidebar-txt">O-Week</span>
+          <span class="sidebar-txt cust-yellow">O-Week</span>
         </a>
-        <div id="collapseOWeek" class="collapse sidebar-collapse-menu" aria-labelledby="Resources" data-parent="#accordionSidebar">
+        </a>
+        <div id="collapseOWeek" class="collapse show sidebar-collapse-menu" aria-labelledby="Resources" data-parent="#accordionSidebar">
           <div class="sidebar-dropdown py-1 collapse-inner rounded">
             <a class="collapse-item dropdown-text py-1" href="oweek-home.html">DemO-Week</a>
             <a class="collapse-item dropdown-text py-1" href="oweek-mission.html">Mission Statement</a>
-            <a class="collapse-item dropdown-text py-1" href="oweek-book.html">O-Week Book</a>
+            <a class="collapse-item dropdown-text py-1 active" href="oweek-book.html">O-Week Book</a>
           </div>
           <hr class="sidebar-break">
         </div>
