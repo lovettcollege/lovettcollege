@@ -5589,7 +5589,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: #040505;
 }
 
-.blm-banner {
+.new-site-banner {
   -webkit-text-size-adjust: 100%;
   --dark-goldenrod: #ffcd32;
   --pale-goldenrod: #fff5d4;
@@ -5598,6 +5598,8 @@ a.badge-dark:focus, a.badge-dark.focus {
   --serif-font: Merriweather, serif;
   --sans-serif-font: Karla, sans-serif;
   --dark-text-color: #333;
+  --yellow-text-color: #fbdb04;
+  --navy-background-color: #042b5b;
   -webkit-box-direction: normal;
   font: inherit;
   margin: 0;
@@ -5610,15 +5612,15 @@ a.badge-dark:focus, a.badge-dark.focus {
   width: 100%;
   font-family: var(--sans-serif-font);
   letter-spacing: 2px;
-  background-color: var(--dark-text-color);
-  color: var(--off-white);
+  background-color: var(--navy-background-color);
+  color: var(--yellow-text-color);
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
   bottom: auto;
   z-index: 3;
   display: block;
-  top: 7.25vh;
+  top: 12vh;
   position: absolute;
   font-size: 26px;
   margin-top: 0px;
